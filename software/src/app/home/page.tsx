@@ -15,7 +15,7 @@ export default function Home() {
   const { getCurrentFireStatus } = useFireStatus();
   const currentStatus = getCurrentFireStatus();
   const [isSafe, setIsSafe] = useState(true);
-
+// test
   // useEffect(() => {
   //   setIsSafe(currentStatus === "safe");
   // }, [currentStatus]);
